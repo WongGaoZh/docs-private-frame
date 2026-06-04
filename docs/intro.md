@@ -3,16 +3,23 @@ sidebar_position: 1
 slug: /
 ---
 
-# Introduction
+# 欢迎来到 WongGaoZh 的文档
 
-Welcome to the Documentation Framework. This is a blank template ready for your content.
+这是我的个人文档站点，用于存放和分享各种技术文档和笔记。
 
-## Getting Started
+## 📚 文档目录
 
-You can edit this file in `docs/intro.md` to start building your documentation.
+这里将包含以下内容：
 
-### Features
-- Docusaurus-based framework
-- Sidebar support
-- Multi-language support (pre-configured for English and Chinese)
-- Search-ready with EasyOps plugin
+- **技术笔记** — 编程语言、框架、工具的使用心得
+- **项目文档** — 个人项目的架构设计和实现细节
+- **学习资料** — 学习过程中的总结和整理
+- **工作记录** — 工作中的经验和技术方案
+
+## 🚀 快速开始
+
+使用左侧导航栏浏览文档，或使用顶部搜索栏查找特定内容。
+
+## 📝 更新日志
+
+- **2026-06-04** — 站点初始化，部署到 Cloudflare Pages

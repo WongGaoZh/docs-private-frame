@@ -7,16 +7,16 @@ const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation Framework',
-  tagline: 'A basic documentation framework ready for content',
+  title: 'WongGaoZh 的文档',
+  tagline: '个人技术文档与笔记',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.example.com',
+  url: 'https://my-docs-viewer.pages.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   markdown: {
     hooks: {
@@ -61,10 +61,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Documentation',
+        title: 'WongGaoZh 的文档',
         logo: {
           alt: 'Site Logo',
           src: 'img/logo.svg',
@@ -73,50 +72,8 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            label: 'Home',
+            label: '文档',
             position: 'left',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'smartContractSidebar',
-            position: 'left',
-            label: 'Smart Contract',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'apiSidebar',
-            position: 'left',
-            label: 'API',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'frontEndSidebar',
-            position: 'left',
-            label: 'FrontEnd',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'qaSidebar',
-            position: 'left',
-            label: 'QA',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'maintainerSidebar',
-            position: 'left',
-            label: 'Maintainer',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'iosSidebar',
-            position: 'left',
-            label: 'iOS',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'androidSidebar',
-            position: 'left',
-            label: 'Android',
           },
           {
             href: 'pathname://__login?logout=1',
@@ -129,24 +86,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Introduction',
+                label: '首页',
                 to: '/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Lewis Zhang. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WongGaoZh. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['python', 'json', 'bash'],
+        additionalLanguages: ['python', 'json', 'bash', 'typescript'],
       },
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
